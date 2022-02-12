@@ -4514,41 +4514,8 @@ def konfo():
 	jalan(war+'Silahkan Chat *'+C+'Mr.Risky'+Q+'* Untuk Membeli Key !')
 	jalan(f"""{war}Harga Key
  |
- |--7 Day      {C}30.000{Q}
- |--1 Bulan    {C}50.000{Q}
- |
-{war}Method Pembayaran
- |
- |--Dana   |--> {U}083143565470 {Q}
- |
-{war}Informasi/Kontak
- |
- |--Whatsapp ( {U}083143565470 {Q})
- |--Telegram ( {U}083143565470 {Q})
- |
-{war}Pesan Admin Tinggalkan
- |
- |--Jika Tidak Ada Hasil Saat Crack Cobalah Hidup Matikan Mode Pesawat
- |--Jika Tidak Ada Hasil Yang Ok/Suksess Cobalah Ganti Kartu/Jangam Pakai Wifi
- |--Jika Anda Menggunakan Wifi Rawan Spam Ip
- |
- |--Admin Tidak Bertanggung Jawab Atas Terjadinya Masalah !
- |--Jika Anda Mau Membeli License/Key Harap Kirim Bukti Transaksi/Tranfer
- |--Admin Tidak Menerima Penawaran/Tawar Menawar
- |
-{war}Thanks to
- |--{I}Allah SWT{Q}
- |--Mamah
- |--Bapak
- |
- |
- |--{C}Ratu Error{Q}
- |--{I}Mr.Risky{Q}
- |--Mr.Jeeck
- |--Wans X Gans
- |
- |
- |-- COPY LINK : {M}{url_wa}{tks}{Q}""")
+ |--1 Bulan    {C}100.000{Q}
+ |-- COPY LINK : {O}{url_wa}{tks}{Q}""")
 
 #	subprocess.check_output(["am", "start", url_wa+tks])
 	sys.exit()
