@@ -217,57 +217,6 @@ waktu = str(datetime.now().strftime("%Y%m%d"))
 jamz = datetime.now().strftime('%H:%M:%S')
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 
-## logo anak ganteng
-"""
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-▒▒▒▒██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██▒▒▒▒
-▒▒████▄▒▒▒▄▄▄▄▄▄▄▒▒▒▄████▒▒
-▒▒▒▒▒▀▀▒▄█████████▄▒▀▀▒▒▒▒▒
-▒▒▒▒▒▒▒█████████████▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒██▀▀▀███▀▀▀██▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒██▒▒▒███▒▒▒██▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒█████▀▄▀█████▒▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒▒███████▒▒▒▒▒▒▒▒▒▒
-▒▒▒▒▄▄▄██▒▒█▀█▀█▒▒██▄▄▄▒▒▒▒
-▒▒▒▒▀▀██▒▒▒▒▒▒▒▒▒▒▒██▀▀▒▒▒▒
-▒▒▒▒▒▒▀▀▒▒▒▒▒▒▒▒▒▒▒▀▀▒▒▒▒▒▒
-▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
-"""
-
-
-
-
-wwn = pilih([U, C, B, Q])
-
-loag = f"""{wwn}_______________  ___________ __________		{K}•{C}━━━━━━━━━━━━━━━━━━━━{K}•{Q}
-{wwn}______  /___   |/  /___  __ )___  ____/		{K}•{M}  Created By Risky  {K}•{Q}
-{wwn}___ _  / __  /|_/ / __  __  |__  /_		{K}•{M} Mode In Indonesia® {K}•{Q}
-{wwn}/ /_/ /  _  /  / /  _  /_/ / _  __/		{K}•{C}━━━━━━━━━━━━━━━━━━━━{K}•{Q}
-{wwn}\____/   /_/  /_/   /_____/  /_/{Q}"""
-
-logo = (f"""{loag}
-[{C}++{Q}] Athour       : {kiky_at}
-[{C}++{Q}] WhatsApp     : {kiky_hp}
-[{C}++{Q}] Version      : {M}{version_xx}{Q}""")
-
-try:
-	ua = open(".ua","r").read()
-except:
-	print (war+'Anda Menggunakan Useragent Default !!');time.sleep(2)
-	ua = pilih([
-	"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]"
-#	"NokiaX2-00/5.0 (04.80) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"
-	])
-	ua1 = random.choice(['NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
-		'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]',
-		'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11',
-		'nokiac3-00/5.0 (07.20) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 applewebkit/420+ (khtml, like gecko) safari/420+'])
-	ua2 = random.choice(['NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+',
-		'Mozilla/5.0 (Linux; Android 4.1.2; Nokia_X Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.82 Mobile Safari/537.36 NokiaBrowser/1.2.0.11',
-		'nokiac3-00/5.0 (07.20) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 applewebkit/420+ (khtml, like gecko) safari/420+'])
-	pass
-try:kiky_pass=requests.get("http://ip-api.com/json/").json()["country"].lower()
-except:kiky_pass="None"
 
 def menu():
 	global ua
