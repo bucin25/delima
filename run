@@ -218,8 +218,8 @@ jamz = datetime.now().strftime('%H:%M:%S')
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
 
 ## logo anak ganteng
-	print
-	print
+	print("")
+	print("")
  	jalan('\033[1;37m                    ______---_____ ')
   	jalan('\033[1;37m         ___-----           __      ----_ ')
 	jalan('\033[1;37m ___---             ___------             \ ')
@@ -236,7 +236,7 @@ bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "0
 	jalan('\033[1;36mGroup\033[1;37m   : \033[1;37mRATU ERROR            \33[0;1m\033[1;37m|  \_((_(_)|/(_) ')
 	jalan('\033[1;36m¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤\033[1;37m\             ( ')
 	jalan('\033[1;36m¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤\033[1;37m\_____________)')
-	print
+	print("")
 
 try:
 	ua = open(".ua","r").read()
