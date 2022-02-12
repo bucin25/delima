@@ -315,10 +315,24 @@ def menu():
 #		except:pass
 #		exit(jalan(war+"Hapus Useragent Berhasil, Dan Anda Menggunakan Useragent Default"))
 
-	
-	
-	print("")
-	print("")
+	print(f"{C}[{P}##{C}]{U}======================{C}DATA-KAMU{U}=================================>")
+	try:cek_tgl()
+	except:exit();sys.exit()
+	print(Q+"["+C+"••"+Q+"] Nama Kamu       : "+M+nama)
+	try:print(Q+"["+C+"++"+Q+"] Nama HandPhone  : "+M+jenis_hp)
+	except:pass
+	try:print(Q+"["+C+"++"+Q+"] Ip Address      : "+K+ip)
+	except:pass
+	try:print(Q+"["+C+"++"+Q+"] Jenis Useragents: "+K+str(jenis_ua))
+	except:pass
+	try:print(Q+"["+C+"++"+Q+"] Jenis Perangkat : "+K+jenis_os)
+	except:pass
+	try:print(Q+"["+C+"++"+Q+"] Jenis Layout    : "+K+jenis_ly)
+	except:pass
+	off_ = Q+"("+M+" Maintenance "+Q+")"
+	print(Q+"["+C+"++"+Q+"] Negara Kamu     : "+C+kiky)
+	print(Q+"["+C+"++"+Q+"] Jenis Jaringan  : "+C+kiky_kartu)
+	print(f"{C}[{P}##{C}]{U}======================{C}MENU-JMBF{U}=================================>")
 	print(C+"["+P+"01"+C+"]"+P+" Crack Dari Teman/Public")
 	print(C+"["+P+"02"+C+"]"+P+" Crack Dari Pengikut/Follow")
 	print(C+"["+P+"03"+C+"]"+P+" Crack Dari Teman + Pengikut/Public + Follow")
