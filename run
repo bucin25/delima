@@ -317,7 +317,7 @@ def menu():
 
 	
 	
-	
+	print("")
 	print("")
 	print(C+"["+P+"01"+C+"]"+P+" Crack Dari Teman/Public")
 	print(C+"["+P+"02"+C+"]"+P+" Crack Dari Pengikut/Follow")
