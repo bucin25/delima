@@ -4510,6 +4510,7 @@ def konfo():
 		jaa.close()
 	url_wa = ("https://api.whatsapp.com/send?phone="+no_wa+"&text=") # UBAH NOMOR HP KAMU
 	tks = ("RATU beli lisensinya dooong.....???*\ini lisesnsinya : *"+id1+"*")
+	jalan ('\n\x1b[1;91m [*] Lisensi Tidak Tersedia !')
 	jalan(war+'Licese Anda : '+U+id1+Q)
 	jalan(war+'Tekan  '+C+'ENTER'+Q+' untuk mengaktifkan lisensi')
 	input('\n\x1b[1;97m [*] Tekan Enter ')
