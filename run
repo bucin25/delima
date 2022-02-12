@@ -4498,7 +4498,7 @@ def buat_tgl():
 	else:
 		konfo()
 def konfo():
-	no_wa = "6283143565470"
+	no_wa = "627799183538"
 	os.system("clear")
 #	print (logo)
 	try:
@@ -4512,10 +4512,7 @@ def konfo():
 	tks = ("Halo Kak, Saya Pengguna Script *Jmbf*\nSaya Mau Beli Key/License Kak\nKey/License : *"+id1+"*")
 	jalan(war+'Licese Anda : '+U+id1+Q)
 	jalan(war+'Silahkan Chat *'+C+'Mr.Risky'+Q+'* Untuk Membeli Key !')
-	jalan(f"""{war}Harga Key
- |
- |--1 Bulan    {C}100.000{Q}
- |-- COPY LINK : {O}{url_wa}{tks}{Q}""")
+	jalan(f"""Chat ADMIN untuk mengkonfirmasi lisensi""")
 
 #	subprocess.check_output(["am", "start", url_wa+tks])
 	sys.exit()
