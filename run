@@ -4514,7 +4514,7 @@ def konfo():
 	jalan(war+'Tekan  '+C+'ENTER'+Q+' untuk mengaktifkan lisensi')
 	input('\n\x1b[1;97m [*] Tekan Enter ')
 	os.system('am start https://wa.me/+6287799183568?text=Hi+Ratu+Beli+Lisensi+dong.%20Lisensi:%20' + j + ' >/dev/null')
-            os.sys.exit()
+	os.sys.exit()
     except requests.exceptions.ConnectionError:
     	os.system('clear')
         print '\x1b[1;91m [!] Tidak Ada Koneksi Data\x1b[0;97m'
