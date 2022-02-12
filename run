@@ -4511,9 +4511,8 @@ def konfo():
 	url_wa = ("https://api.whatsapp.com/send?phone="+no_wa+"&text=") # UBAH NOMOR HP KAMU
 	tks = ("Halo Kak, Saya Pengguna Script *Jmbf*\nSaya Mau Beli Key/License Kak\nKey/License : *"+id1+"*")
 	jalan(war+'Licese Anda : '+U+id1+Q)
-	jalan(war+'Silahkan Chat *'+C+'Mr.Risky'+Q+'* Untuk Membeli Key !')
-	jalan(f"""Chat ADMIN untuk mengkonfirmasi lisensi""")
-
+	jalan(war+'Tekan  '+C+'ENTER'+Q+' untuk mengaktifkan lisensi')
+	
 #	subprocess.check_output(["am", "start", url_wa+tks])
 	sys.exit()
 def cek_tgl():  # CHECK TANGGAL KONTOL
