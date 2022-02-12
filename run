@@ -4508,14 +4508,14 @@ def konfo():
 		jaa = open(".datame1", "w")
 		jaa.write(id1)
 		jaa.close()
-	url_wa = ("https://api.whatsapp.com/send?phone="+no_wa+"&text=") # UBAH NOMOR HP KAMU
-	tks = ("RATU beli lisensinya dooong.....???*\ini lisesnsinya : *"+id1+"*")
-	jalan ('\n\x1b[1;91m [*] Lisensi Tidak Tersedia !')
-	jalan(war+'Licese Anda : '+U+id1+Q)
-	jalan(war+'Tekan  '+C+'ENTER'+Q+' untuk mengaktifkan lisensi')
-	input('\n\x1b[1;97m [*] Tekan Enter ')
-	os.system('am start https://wa.me/+6287799183568?text=Hi+Ratu+Beli+Lisensi+dong.%20Lisensi:%20' + j + ' >/dev/null')
-	os.sys.exit()
+	    jalan ('\n\x1b[1;91m [*] Lisensi Tidak Tersedia !')
+            time.sleep(1)
+            lisen()
+            jalan ('\033[1;96m [\033[1;97m*\033[1;96m]\033[1;97m Chat Admin Untuk Mengkonfirmasi Lisensi\x1b[1;39m')
+            time.sleep(0.07)
+            raw_input('\n\x1b[1;97m [*] Tekan Enter ')
+            os.system('am start https://wa.me/+6287799183568?text=Hi+Ratu+Beli+Lisensi+dong.%20Lisensi:%20' + j + ' >/dev/null')
+            os.sys.exit()
         
 def jalan(z):
 	for e in z + '\n':
