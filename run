@@ -4515,9 +4515,9 @@ def konfo():
 	input('\n\x1b[1;97m [*] Tekan Enter ')
 	os.system('am start https://wa.me/+6287799183568?text=Hi+Ratu+Beli+Lisensi+dong.%20Lisensi:%20' + j + ' >/dev/null')
 	os.sys.exit()
-	except IOError:
-        	subprocess.Popen(['rm', '-rf', 'licensed.log'])
-        	romz()
+		except IOError:
+        		subprocess.Popen(['rm', '-rf', 'licensed.log'])
+        		romz()
         
 def jalan(z):
 	for e in z + '\n':
