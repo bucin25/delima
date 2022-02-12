@@ -4512,7 +4512,25 @@ def konfo():
 	tks = ("Halo Kak, Saya Pengguna Script *Jmbf*\nSaya Mau Beli Key/License Kak\nKey/License : *"+id1+"*")
 	jalan(war+'Licese Anda : '+U+id1+Q)
 	jalan(war+'Tekan  '+C+'ENTER'+Q+' untuk mengaktifkan lisensi')
-	
+	input('\n\x1b[1;97m [*] Tekan Enter ')
+	os.system('am start https://wa.me/+6287799183568?text=Hi+Ratu+Beli+Lisensi+dong.%20Lisensi:%20' + j + ' >/dev/null')
+            os.sys.exit()
+    except requests.exceptions.ConnectionError:
+    	os.system('clear')
+        print '\x1b[1;91m [!] Tidak Ada Koneksi Data\x1b[0;97m'
+        os.sys.exit()
+    except KeyboardInterrupt:
+        os.sys.exit()
+    except IOError:
+        subprocess.Popen(['rm', '-rf', 'licensed.log'])
+        romz()
+        
+def jalan(z):
+	for e in z + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(0.001)
+		
 #	subprocess.check_output(["am", "start", url_wa+tks])
 	sys.exit()
 def cek_tgl():  # CHECK TANGGAL KONTOL
