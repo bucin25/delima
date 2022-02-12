@@ -4508,7 +4508,7 @@ def konfo():
 		jaa = open(".datame1", "w")
 		jaa.write(id1)
 		jaa.close()	               
-	    jalan(war+"[*] Lisensi Tidak Tersedia")
+	    jalan(war+" Lisensi Tidak Tersedia")
 	    time.sleep(1)
             lisen()
             jalan('\033[1;96m [\033[1;97m*\033[1;96m]\033[1;97m Chat Admin Untuk Mengkonfirmasi Lisensi\x1b[1;39m')
